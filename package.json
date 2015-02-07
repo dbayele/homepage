@@ -1,0 +1,31 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Aaron's Homepage",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s33r/homepage.git"
+  },
+  "keywords": [
+    "Aaron",
+    "Willows",
+    "Homepage"
+  ],
+  "author": {
+    "name": "Aaron Willows",
+    "email": "aaronchristopherw@gmail.com",
+    "url": "http://aaronwillows.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s33r/homepage/issues"
+  },
+  "homepage": "https://github.com/s33r/homepage",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}

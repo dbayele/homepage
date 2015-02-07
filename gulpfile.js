@@ -1,0 +1,9 @@
+/**
+ * Created by Aaron on 2/7/2015.
+ */
+
+var gulp = require('gulp');
+
+gulp.task('default', function() {
+    // place code for your default task here
+});
