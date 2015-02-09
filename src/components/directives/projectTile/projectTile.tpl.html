@@ -1,0 +1,15 @@
+<div class="project-tile">
+
+    <a href="{{imageUrl}}" target="_blank"><img class="screenshot" src="{{ imageUrl }}"></a>
+
+    <div class="text-panel">
+        <h2>{{ projectName }}</h2>
+        <ul>
+            <li title="The live version may have changed significantly since I worked on it." ng-show="liveUrl"><a class="project-link" href="{{ liveUrl }}">Live Version</a> <i class="note fa fa-asterisk"></i></li>
+            <li ng-show="localUrl"><a class="project-link" href="{{ localUrl }}">Local Version</a></li>
+            <li><a class="project-link link-screenshot" href="{{ imageUrl }}" target="_blank">Screenshot</a></li>
+        </ul>
+
+        <ng-include src="descriptionTemplate"></ng-include>
+    </div>
+</div>

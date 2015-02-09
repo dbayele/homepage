@@ -3,7 +3,8 @@
  */
 angular.module('aaron.homepage.portfolio', [
     'templates',
-    'ngRoute'
+    'ngRoute',
+    'aaron.homepage.directives.projectTile'
 ])
     .config(function($routeProvider, $locationProvider) {
         $routeProvider.when('/portfolio', {

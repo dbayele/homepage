@@ -1,0 +1,90 @@
+.project-tile {
+
+  background-color: #515151;
+  padding-bottom: 1rem;
+
+  .screenshot {
+    max-width: 33%;
+    max-height: 33%;
+    vertical-align: top;
+  }
+
+  .text-panel {
+    display:  inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    max-width: 66%;
+  }
+
+  h2 {
+    display: inline-block;
+  }
+
+  ul {
+//    text-align: right;
+    display: inline-block;
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  li:last-of-type {
+    margin-right: 0;
+  }
+
+  .project-link {
+    font-size: 1.1rem;
+    color: gold;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+    text-decoration: none;
+  }
+
+  .project-link:hover {
+    color: #DDD;
+    text-decoration: underline;
+  }
+
+  .project-info {
+    margin-top: 1rem;
+  }
+
+  .link-screenshot {
+    display: none;
+  }
+
+  .note {
+    font-size: .5rem;
+    vertical-align: super;
+  }
+
+
+
+}
+
+@media @handsetQuery {
+  .project-tile {
+    .screenshot {
+      display: none;
+    }
+
+    .text-panel {
+      display:  block;
+      max-width: 100%;
+    }
+
+    ul {
+      margin-top: .5rem;
+      text-align: left;
+      display: block;
+      float: none;
+    }
+
+    .link-screenshot {
+      display: inline-block;
+    }
+  }
+}
