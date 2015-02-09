@@ -27,6 +27,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+a {
+  color: @normalLinkColor;
+  text-shadow: @linkShadow;
+  text-decoration: none;
+}
+
+a:hover {
+  color: @linkHover;
+  text-decoration: underline;
+}
+
+a.important-link {
+  color: @importantLinkColor;
+}
+
+
 @import '../components/directives/navBar/navBar';
 @import '../components/directives/footerNav/footerNav';
 @import '../components/directives/projectTile/projectTile';
