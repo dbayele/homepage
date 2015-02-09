@@ -4,6 +4,8 @@
 angular.module('aaron.homepage', [
     'templates',
     'ngRoute',
+    'ngTouch',
+    'ngAnimate',
     'aaron.homepage.services.MenuStateService',
     'aaron.homepage.directives.navBar',
     'aaron.homepage.directives.footerNav',
