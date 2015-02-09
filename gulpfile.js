@@ -38,7 +38,7 @@ gulp.task('copy scripts', ['clean'], function() {
 });
 
 gulp.task('compile libraries', ['clean'], function() {
-    var stream = gulp.src(gulpconfig.libraryFiles)
+    var stream = gulp.src(gulpconfig.vendorScripts)
         .pipe(ngAnnotate())
         .pipe(concat('libraries.js', {newLine: '; '}))
         .pipe(uglify())
@@ -58,8 +58,7 @@ gulp.task('compile less', ['clean'], function() {
 gulp.task('compile templates', ['clean'], function() {
     gulp.src('src/**/*.tpl.html')
         .pipe(html2js({
-            outputModuleName: 'templates',
-            useStrict: true
+            outputModuleName: 'templates'
         }))
         .pipe(concat('templates.js'))
         .pipe(uglify())

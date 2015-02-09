@@ -1,0 +1,12 @@
+<div class="nav-bar">
+    <h1><a href="#/">Aaron Willows</a></h1>
+    <button class="mobile-menu-button" ng-click="toggleMobileMenu()"><i class="fa fa-bars"></i></button>
+    <nav>
+        <ul class="nav-menu" ng-class="{'mobile-visible': mobileMenuOpen}">
+            <li><a ng-class="{'current': currentItem.name === 'portfolio'}" href="#/portfolio">Portfolio</a></li>
+            <li><a ng-class="{'current': currentItem.name === 'resume'}" href="#/resume">Resume</a></li>
+            <li><a ng-class="{'current': currentItem.name === 'about'}" href="#/about">About</a></li>
+            <li><a ng-class="{'current': currentItem.name === 'contact'}" class="contact" href="#/contact"><i class="fa fa-send"></i>  Contact</a></li>
+        </ul>
+    </nav>
+</div>

@@ -1,0 +1,105 @@
+.nav-bar {
+  position:fixed;
+
+  top:0;
+  background-color: #000000;
+  width: 100%;
+
+  height: @navHeight;
+
+
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-left: 1rem;
+
+  h1 {
+    display: inline-block;
+  }
+
+  nav {
+    text-align: right;
+    display: inline-block;
+    float:right;
+  }
+
+  .mobile-menu-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    .headlineText();
+
+    padding-right: 1rem;
+  }
+
+  li:last-of-type {
+    padding-left: 0;
+  }
+
+  a {
+    font-size: 1.5rem;
+    color: #CCC;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #DDD;
+    text-decoration: underline;
+  }
+
+  .contact {
+    color: gold;
+  }
+
+  .current {
+    text-decoration: underline;
+  }
+
+}
+
+@media @desktopQuery, @tabletQuery {
+  .nav-bar {
+    .mobile-menu-button {
+      display: none;
+    }
+
+    .nav-menu {
+      display: block;
+    }
+  }
+
+}
+
+@media @handsetQuery {
+  .nav-bar {
+    .mobile-menu-button {
+      display: inline-block;
+    }
+
+    .nav-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: @navHeight;
+      background-color: #000000;
+      padding: .5rem;
+    }
+
+    li {
+      display: block;
+      padding-bottom: .5rem;
+    }
+
+    .mobile-visible {
+      display: block;
+    }
+  }
+
+}
