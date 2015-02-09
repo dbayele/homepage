@@ -9,7 +9,10 @@ angular.module('aaron.homepage', [
     'aaron.homepage.directives.footerNav',
     'aaron.homepage.home',
     'aaron.homepage.portfolio',
-    'aaron.homepage.fourohfour'
+    'aaron.homepage.fourohfour',
+    'aaron.homepage.resume',
+    'aaron.homepage.about',
+    'aaron.homepage.contact'
 
 ])
 .config(function($routeProvider, $locationProvider) {

@@ -46,9 +46,24 @@ a.important-link:hover {
   color: @linkHover;
 }
 
+strong {
+  color: @strongTextColor;
+  font-weight: bold;
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 @import '../components/directives/navBar/navBar';
 @import '../components/directives/footerNav/footerNav';
 @import '../components/directives/projectTile/projectTile';
 
 @import '../views/home/home';
 @import '../views/portfolio/portfolio';
+@import '../views/resume/resume';
+@import '../views/about/about';
+@import '../views/contact/contact';
