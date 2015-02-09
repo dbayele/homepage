@@ -1,3 +1,62 @@
 .contact {
 
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  li:last-of-type {
+    margin: 0;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  a {
+    font-size: 8rem;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .contact-message {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .disclaimer {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+@media @tabletQuery {
+  .contact {
+
+    .contact-message > i {
+      display: none;
+    }
+
+  }
+}
+
+@media @handsetQuery {
+  .contact {
+
+    .contact-message > i {
+      display: none;
+    }
+
+    a {
+      font-size: 6rem;
+    }
+
+    .disclaimer {
+      padding-right: .5rem;
+      padding-left: .5rem;
+    }
+
+  }
 }
