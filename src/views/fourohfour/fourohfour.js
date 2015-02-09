@@ -8,7 +8,24 @@ angular.module('aaron.homepage.fourohfour', [
 .config(function($routeProvider, $locationProvider) {
     $routeProvider.when('/fourohfour', {
         templateUrl: 'src/views/fourohfour/fourohfour.tpl.html',
-        controller: 'FourohfourController'
+        controller: 'FourohfourController',
+        resolve: {
+            nextMenuItem: function() {
+                return {
+                    name: 'home',
+                    url: '#/home'
+                }
+            },
+            currentMenuItem: function() {
+                return {
+                    name: 'fourohfour',
+                    url: '#/fourohfour'
+                }
+            },
+            menusVisible: function() {
+                return false;
+            }
+        }
     });
 })
 .run(function() {
