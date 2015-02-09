@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache" ng-controller="MainController" class="loading">
+<head>
+    <meta charset="UTF-8" />
+<!-- begin handset icons & splash screens -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-title" content="Navigator" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- For Chrome for Android: -->
+    <link rel="icon" sizes="192x192" href="assets/images/icons/android.png">
+    <!-- For iPhone 6 Plus with @3× display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="assets/images/icons/appicon-60@3x.png">
+    <!-- For iPad with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/images/icons/appicon-76@2x.png">
+    <!-- For iPad with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/icons/appicon-72@2x.png">
+    <!-- For iPhone with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/images/icons/appicon-60@2x.png">
+    <!-- For iPhone with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icons/appicon@2x.png">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/images/icons/appicon-76.png">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icons/appicon-72.png">
+    <!-- For non-Retina (@1× display) iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/appicon.png"><!-- 57×57px -->
+
+<!-->    <!-- iPhone SPLASHSCREEN-->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-320x460.jpg" media="(device-width: 320px)" />
+<!-->    <!-- iPhone (Retina) SPLASHSCREEN-->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-640x920.jpg" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" />
+<!-->    <!-- iPad (landscape) SPLASHSCREEN-->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-1024x748.jpg" media="(device-width: 768px) and (orientation: landscape)" />
+<!-->    <!-- iPhone 6 -->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-750x1294.jpg" media="(device-width: 375px) and (device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" />
+<!-->    <!-- iPad (portrait) SPLASHSCREEN-->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-768x1004.jpg" media="(device-width: 768px) and (orientation: portrait)" />
+<!-->    <!-- iPhone 6+ Portrait -->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-1242x2148.jpg" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" />
+<!-->    <!-- iPad (Retina, landscape) SPLASHSCREEN -->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-2048x1496.jpg" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)" />
+<!-->    <!-- iPad (Retina, portrait) SPLASHSCREEN-->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-1536x2008.jpg" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" />
+<!-->    <!-- iPhone 6+ Landscape -->
+<!-->    <link rel="apple-touch-startup-image" href="assets/images/splash/apple-touch-startup-image-2208x1182.jpg" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" />
+<!-- end handset icons & splash screens -->
+
+    <title ng-bind="pageTitle"></title>
+
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/hal-ship-0.0.3.css" />
+</head>
+
+<body ng-class="{'android': androidDevice}">
+    <hal-loading-screen ng-hide="!loadingScreenVisible" message-text="loadingMessage" info-text="loadingDetailsMessage"></hal-loading-screen>
+    <hal-content-loader id="preloadedContent"></hal-content-loader>
+
+    <div class="hal-container" ng-class="{visible: !loadingScreenVisible}">
+        <hal-ship-header id="hal-ship-header"></hal-ship-header>
+        <div id="timeAndBackNav">
+            <hal-ship-time ng-if="!androidDevice"></hal-ship-time>
+            <hal-network-status-icon></hal-network-status-icon>
+            <hal-back-nav id="hal-back-nav" page-title="pageTitle" ng-hide="noBackNav"></hal-back-nav>
+        </div>
+        <!--<div id="hal-header" hal-header primary-guest="primaryGuest" logout="logout()"></div>-->
+        <!--<pnav id="hal-nav" option-list="optionList"></pnav>-->
+        <notification-dialog></notification-dialog>
+
+        <div ui-view="main" id="main"></div>
+    </div><!-- .container -->
+    <!-- compiled JavaScript -->
+    
+    <script type="text/javascript" src="assets/hal-ship-0.0.3.js"></script>
+    <script type="text/javascript">
+        //Initialize the application. This allows other code to be run before our Angular application runs.
+        angular.element(document).ready(function () {
+            angular.bootstrap(document, ['hal-ship']);
+        });
+    </script>
+</body>
+</html>

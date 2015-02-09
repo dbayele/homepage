@@ -1,0 +1,348 @@
+{
+  "homeLanding": {
+    "topPicks": "Top Picks",
+    "sidebar": {
+      "beforeYouLeave": "Before You Leave",
+      "bookDining": "Book Dining",
+      "bookPreAndPostTravel": "Book Pre & Post-Cruise Travel",
+      "bookSpa": "Book Spa",
+      "buyCruiseProtection": "Purchase Cruise Protection Plan",
+      "buyGifts": "Purchase Gifts & Indulgences",
+      "buyShoreExcursions": "Buy Shore Excursions",
+      "checkIn": "Check In",
+      "departureDays": "Days Until Departure",
+      "getVisas": "Get Visas",
+      "makeFinalPayment": "Make Final Payment",
+      "viewDeckPlan": "View Deck Plan"
+    },
+    "hero": {
+      "horizontalStrip": {
+        "dateAndTime": "{{ date | date:'MMM dd, yyyy' }} at {{ date | date:'hh:mm a' }}",
+        "departure": "Departure",
+        "mapTile": "Itinerary Map",
+        "return": "Return",
+        "ship": "SHIP:",
+        "shipTitle": "Learn more about your ship",
+        "stateroom": "STATEROOM:",
+        "stateroomTile": "Learn more about your stateroom"
+      },
+      "verticalStrip": {
+        "welcomeMessage": "WELCOME {{name}}",
+        "bookFlightsTravel": "Book Flights & Travel",
+        "exploreShoreExcursions": "Explore Shore Excursions",
+        "bookSpaDay": "Book a Spa Day",
+        "bookGiftsIndulgences": "Book Gifts & Indulgences",
+        "viewDiningOptions": "View Dining Options"
+      }
+    },
+    "modalWindow": {
+      "roleChange": {
+        "requestedRole": "I am:",
+        "emailAddress": "My email:",
+        "offersOptIn": "Please send me information or special offers about my cruise",
+        "cancel": "cancel login",
+        "continue": "Continue"
+      }
+    },
+    "shorexTile": {
+      "activity": "Activity",
+      "limitedCapacity": "Limited Capacity",
+      "remainingSpots": "{{ positions_left }} spaces left",
+      "perAdult": "Per Adult",
+      "perParty": "Per Party"
+    }
+  },
+  "shorexLanding": {
+    "hero": {
+      "verticalStrip": {
+        "title": "SHORE EXCURSIONS",
+        "downloadEbrochure": "Download Personalized eBrochure"
+      }
+    },
+    "category": {
+      "familyFriendly": "Family Friendly",
+      "flightSeeing": "Flightseeing",
+      "foodAndWine": "Food & Wine",
+      "leisurely": "Leisurely",
+      "natureAndWilderness": "Nature & Wilderness",
+      "overlandAndOvernight": "Overland & Overnight",
+      "sightseeingAndCulture": "Sightseeing & Culture",
+      "sunSeaAndSurf": "Sun, Sea & Surf",
+      "wildlifeAndAnimals": "Wildlife & Animals"
+    },
+    "days": "DAYS",
+    "easy": "Easy",
+    "hour": "HOUR",
+    "hours": "HOURS",
+    "moderate": "Moderate",
+    "strenuous": "Strenuous",
+    "recommendedForYou": "Recommended for You",
+    "viewAll": "View All",
+    "viewAllExcursionsIn": "View All Excursions in",
+    "viewFewer": "View Fewer",
+    "viewInCategories": "View in Categories",
+    "allShoreExcursions": "All Shore Excursions in",
+    "allOtherShoreExcursions": "All Other Shore Excursions in",
+    "error": {
+      "noTourForPort": "There are no Tours available to be booked for this sailing at this time.  Please check back later."
+    },
+    "infoAreaTitle": "WHY BOOK WITH HOLLAND AMERICA?",
+    "infoSection": {
+      "titleSection1": "OUTSTANDING QUALITY & SERVICE",
+      "textSection1": "Our staff is ready and waiting to get you the best possible experience",
+      "titleSection2": "CONVENIENCE & PEACE OF MIND",
+      "textSection2": "Spend less time worrying about logistics, we'll manage that  for you",
+      "titleSection3": "UNCOMPROMISED VALUE",
+      "textSection3": "Save time and money by keeping it all in one place"
+    },
+    "includes": {
+      "meal": "Meal",
+      "snack": "Snack"
+    },
+    "language": {
+      "english": "English",
+      "spanish": "Spanish",
+      "german": "German",
+      "dutch": "Dutch",
+      "french": "French",
+      "portuguese": "Portuguese"
+    },
+    "modalWindow": {
+      "purchase": {
+        "addToCart": "Add to Cart",
+        "addedToCart": "This Shore Excursion has been added to your cart!",
+        "addGuests": "Add Guests",
+        "bookShoreExcursion": "Book Shore Excursion",
+        "bookingNumber": "Booking Number",
+        "departureTime": "Departure Time",
+        "guestWeight": "Guest Weight",
+        "lastName": "Last Name",
+        "payment": "Payment",
+        "selectPatmentMethod": "Select Payment Method",
+        "price": "PRICE",
+        "selectGuests": "Select Guests",
+        "backToShopping": "Back to Shopping",
+        "goToCart": "Go to Cart",
+        "waitlisted": "(Waitlisted)",
+        "youMightAlsoEnjoy": "YOU MIGHT ALSO ENJOY:",
+        "termsAndConditions": "Terms & Conditions"
+      }
+    },
+    "detailsLanding": {
+      "section": {
+        "aboutTheExcursion": "About the Excursion",
+        "additionalInfo": "Additional Info",
+        "details": "Details",
+        "exclusions": "EXCLUSIONS",
+        "inclusions": "INCLUSIONS",
+        "reviews": "Reviews"
+      },
+      "hero": {
+        "horizontalStrip": {
+          "activityLevel": "ACTIVITY LEVEL",
+          "includes": "INCLUDES",
+          "language": "LANGUAGE",
+          "stateroomTile": "Learn more about your stateroom"
+        },
+        "verticalStrip": {
+          "shoreExcursions": "Shore Excursions",
+          "duration": "DURATION",
+          "departureTimes": "DEPARTURE TIMES",
+          "waitlisted": "(Waitlisted)",
+          "adult": "ADULT",
+          "child": "CHILD"
+        }
+      }
+    }
+  },
+  "giftsLanding": {
+    "title": "GIFTS & INDULGENCES",
+    "subTitle": "Less than 3 days to departure?",
+    "recommendedTitle": "Recommended for You",
+    "viewAll": "View All",
+    "viewFewer": "View Fewer",
+    "deadlinePurchaseInfo": "Gifts may be purchased online up to 3 days prior to departure date. If the departure date is less than 3 days away, please call Ship Services at 800-541-1576 or 206-626-7396 to purchase. Our hours of operation are 7am-5pm Monday-Friday (Pacific).",
+    "sidebar": {
+      "title": "Browse Indulgences",
+      "indulgencesHome": "Indulgences Home"
+    },
+    "category": {
+      "beverages": "Beverages",
+      "collectorsGifts": "Collector's Gifts",
+      "flowers": "Flowers",
+      "holidayGifts": "Holiday Gifts",
+      "packages": "Packages",
+      "photoAndDvdPackages": "Photo & DVD Packages",
+      "shipboardCredit": "Shipboard Credit"
+    },
+    "subcategory": {
+      "beer": "Beer",
+      "beverageCards": "Beverage Cards",
+      "spiritsAndLiqueurs": "Spirits and Liqueurs",
+      "spiritPackages": "Spirit Packages",
+      "wine": "Wine",
+      "winePackages": "Wine Packages"
+    },
+    "verticalStrip": {
+      "giftsAndIndulgences": "Gifts & Indulgences"
+    }
+  },
+  "spaLanding": {
+    "sideCategory": {
+      "browseTheSpa": "BROWSE THE SPA",
+      "spaHome": "Spa Home",
+      "acupuncture": "Acupuncture Services",
+      "bodyTherapies": "Body Therapies",
+      "facialTreatments": "Facial Treatments",
+      "fitness": "Fitness",
+      "massage": "Massage Therapies",
+      "mensServices": "Men's Services",
+      "nailServices": "Nail Services",
+      "teeth": "Teeth Whitening",
+      "mediSpa": "Medi Spa"
+    },
+    "modalWindow": {
+      "headline": "Search Spa Availability",
+      "selectGuest": "Select Guest",
+      "guest": "Guest:",
+      "selectAGuest": "Select a Guest",
+      "selectDayAndTime": "Select Day and Time",
+      "day": "Day:",
+      "selectADay": "Select a Day",
+      "time": "Time:",
+      "selectTimeOfDay": "Select Time of Day",
+      "selectButton": "SELECT",
+      "error": {
+        "headline": "Please complete this form so that we may serve your request."
+      }
+    },
+    "itemTile": {
+      "treatmentDuration": "for {{ duration }} minutes",
+      "termsAndConditions": "Terms & Conditions"
+    },
+    "detailsLanding": {
+      "hero": {
+        "verticalStrip": {
+          "title": "SPA",
+          "breadCrumb": "Spa Home"
+        }
+      }
+    }
+  },
+  "itineraryLanding": {
+    "hero": {
+      "verticalStrip": {
+        "title": "ITINERARY",
+        "shareItinerary": "Share Itinerary",
+        "allDays": "All Days",
+        "publicationIcons": {
+          "facebook": "Share on Facebook",
+          "print": "Print this article",
+          "email": "Email this article",
+          "twitter": "Share on Twitter"
+        }
+      }
+    },
+    "summary": {
+      "shipArrivesAt": "SHIP ARRIVES AT",
+      "shipDepartsAt": "SHIP DEPARTS AT",
+      "shipInPort": "SHIP IN PORT",
+      "noActivitiesBooked": "No activities are booked for this day",
+      "bookShoreExcursions": "Book Shore Excursions",
+      "spa": "Spa",
+      "dining": "Dining",
+      "indulgences": "Indulgences"
+    }
+  },
+  "diningLanding": {
+    "hero": {
+      "verticalStrip": {
+        "title": "SPECIALTY DINING"
+      }
+    },
+    "itemTile": {
+      "dinner": "Dinner",
+      "lunch": "Lunch"
+    }
+  },
+  "shared": {
+    "cancel": "Cancel",
+    "buyNow": "Buy Now",
+    "price": "Price",
+    "errors": {
+      "login": {
+        "bookingOrUsername": "The provided booking number or last name do not match our records.",
+        "server": "Unable to contact the server.  Please try again later."
+      }
+    },
+    "routingError": {
+      "missing": {
+        "title": "Bad Request",
+        "description": "The requested resource does not exist."
+      }
+    },
+    "itemTile": {
+      "excursionDescription": "{{date | date: 'MMMM d'}}: {{port}}",
+      "buyItem": "Buy",
+      "saveItem": "SAVE",
+      "saveItemPrompt": "Add to wishlist",
+      "savedItem": "SAVED",
+      "savedItemPrompt": "Remove from wishlist"
+    },
+    "header": {
+      "checkIn": "Check In",
+      "help": "Help",
+      "makePayment": "Make Payment",
+      "myAccount": "My Account",
+      "promoCode": "Promo Code",
+      "signOut": "Sign Out"
+    },
+    "pnav": {
+      "home": "Home",
+      "feedback": "Feedback",
+      "icafe": "Paid Internet",
+      "onboardEvents": "Happening On Board",
+      "shipInfo": "Ship Info",
+      "documentation": "Essential Documentation",
+      "itineraryAndWishList": "ITINERARY",
+      "itinerary": "Itinerary",
+      "myItinerary": "My Itinerary",
+      "itemsBooked": "{{ bookedItemsAmount }} items booked",
+      "protectionProgram": "Cruise Protection Program",
+      "shoreExcursions": "Shore Excursions",
+      "cruiseActivities": "CRUISE ACTIVITIES",
+      "diningOptions": "Dining",
+      "spa": "Spa",
+      "giftsAndIndulgences": "Gifts & Indulgences",
+      "entertainmentAndActivities": "Entertainment & Activities",
+      "travelPlanning": "TRAVEL PLANNING",
+      "preAndPostCruiseTravel": "Pre & Post-Cruise Travel",
+      "cruiseProtectionProgram": "Cruise Protection Program",
+      "essentialDocumentation": "Essential Documentation",
+      "checkIn": "Check In",
+      "makePayment": "Make Payment",
+      "iconTitle": {
+        "shoppingCart": "Shopping Cart"
+      },
+      "login": "Login",
+      "logout": "Logout"
+    },
+    "months": {
+        "abbr": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "full": {
+            "01": "January",
+            "02": "February",
+            "03": "March",
+            "04": "April",
+            "05": "May",
+            "06": "June",
+            "07": "July",
+            "08": "August",
+            "09": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+        }
+    }
+  }
+}

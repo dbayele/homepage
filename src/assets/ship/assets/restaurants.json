@@ -1,0 +1,1184 @@
+{
+	"EU": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Lower Promenade, 2",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 9",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"tamarind"     : {
+			"name"        : "Tamarind",
+			"location"    : "Observation, 11",
+			"locationCode": "TN",
+			"description" : {
+				"short": "Pan-Asian cuisine evoking the rich culinary traditions of Southeast Asia, China and Japan",
+				"long" : "This dramatic venue at the top of the ship features sweeping views and inspired Pan-Asian cuisine.  Lunch (complimentary) includes tantalizing steamed dim sum and spicy crab rangoon. The exotic dinner menus feature dishes created by Master Chef Rudi Sodamin exclusively for Tamarind."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": "Complimentary",
+					"menu"   : "tamarind-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 20,
+					"menu"   : "tamarind-dinner.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Lower Promenade, 2",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"deLibrije"    : {
+			"name"       : "A Taste of De Librije",
+			"location"   : "Lower Promenade, 2",
+			"description": {
+				"short": "Modern, innovative dishes and reinvented gastronomic classics inspired by Jonnie Boer's 3-Michelin star restaurant",
+				"long" : "'A Taste of De Librije' features cuisine of Culinary Council member Jonnie Boer. Named after Boer's Three Michelin Star restaurant, De Librije, in the Netherlands, the menu will showcase a selection of starters, soups, entrees and desserts from his land-based eatery. Once per cruise the Pinnacle Grill will be transformed into De Librije with service staff wearing the livery uniform, the tables will be replicated and the wine list highlighting a selection of labels from the Lady De Librije collection."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "delibrije-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 2 &amp; 3",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"SA": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Upper Promenade, 8",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 11",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Upper Promenade, 8",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 7 &amp; 8",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"MA": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Upper Promenade, 8",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 11",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Upper Promenade, 8",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 7 &amp; 8",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"RY": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Upper Promenade, 8",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 11",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Upper Promenade, 8",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 7 &amp; 8",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"VE": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Upper Promenade, 8",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 11",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Upper Promenade, 8",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 7 &amp; 8",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"RT": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Promenade, 4",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 8",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Promenade, 4",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"deLibrije"    : {
+			"name"       : "A Taste of De Librije",
+			"location"   : "Promenade, 4",
+			"description": {
+				"short": "Modern, innovative dishes and reinvented gastronomic classics inspired by Jonnie Boer's 3-Michelin star restaurant",
+				"long" : "'A Taste of De Librije' features cuisine of Culinary Council member Jonnie Boer. Named after Boer's Three Michelin Star restaurant, De Librije, in the Netherlands, the menu will showcase a selection of starters, soups, entrees and desserts from his land-based eatery. Once per cruise the Pinnacle Grill will be transformed into De Librije with service staff wearing the livery uniform, the tables will be replicated and the wine list highlighting a selection of labels from the Lady De Librije collection."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "delibrije-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 4 &amp; 5",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"VO": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Promenade, 4",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 8",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Promenade, 4",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 4 &amp; 5",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"ZA": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Promenade, 4",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 8",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Promenade, 4",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 4 &amp; 5",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"AM": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Promenade, 4",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 8",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Promenade, 4",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 4 &amp; 5",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"ZU": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Lower Promenade, 2",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 9",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Lower Promenade, 2",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 2 &amp; 3",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"OS": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Lower Promenade, 2",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 9",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Lower Promenade, 2",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 2 &amp; 3",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"WE": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Lower Promenade, 2",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 9",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Lower Promenade, 2",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 2 &amp; 3",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"NO": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Lower Promenade, 2",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 9",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Lower Promenade, 2",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 2 &amp; 3",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"PR": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Lower Promenade, 7",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 11",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Lower Promenade, 7",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 7 &amp; 8",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	},
+	"NA": {
+		"pinnacleGrill": {
+			"name"        : "Pinnacle Grill",
+			"location"    : "Lower Promenade, 2",
+			"locationCode": "PN",
+			"description" : {
+				"short": "Pacific Northwest steak & seafood in an intimate setting",
+				"long" : "Refined and luxurious, romantic and intimate, the Pinnacle Grill represents the pinnacle of exceptional dining. Menus feature aged Sterling Beef and premium seafood served in a luxurious setting appointed with Bvlgari china, Riedel stemware and Frette linens, along with an extensive wine selection that spans the globe."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": 10,
+					"menu"   : "pinnaclegrill-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "pinnaclegrill-dinner.pdf"
+				}
+			}
+		},
+		"canaletto"    : {
+			"name"        : "Canaletto",
+			"location"    : "Lido, 9",
+			"locationCode": "CN",
+			"description" : {
+				"short": "A taste of Italy featuring small plates for sharing",
+				"long" : "Named for a famous 18th-century Venetian artist, Canaletto is your destination onboard for an intimate Italian dinner. Whether you are celebrating a special occasion, or simply desire a romantic alternative to the main Dining Room, reservations at Canaletto can be made in advance of your departure for $10 per person.  We look forward to welcoming you to Canaletto at least once during your voyage."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 29,
+					"menu"   : "canaletto-dinner1.pdf"
+				}
+			}
+		},
+		"tamarind"     : {
+			"name"        : "Tamarind",
+			"location"    : "Observation, 11",
+			"locationCode": "TN",
+			"description" : {
+				"short": "Pan-Asian cuisine evoking the rich culinary traditions of Southeast Asia, China and Japan",
+				"long" : "This dramatic venue at the top of the ship features sweeping views and inspired Pan-Asian cuisine.  Lunch (complimentary) includes tantalizing steamed dim sum and spicy crab rangoon. The exotic dinner menus feature dishes created by Master Chef Rudi Sodamin exclusively for Tamarind."
+			},
+			"meals"       : {
+				"breakfast": null,
+				"lunch"    : {
+					"pricing": "Complimentary",
+					"menu"   : "tamarind-lunch.pdf"
+				},
+				"dinner"   : {
+					"pricing": 20,
+					"menu"   : "tamarind-dinner.pdf"
+				}
+			}
+		},
+		"leCirque"     : {
+			"name"       : "An Evening at Le Cirque",
+			"location"   : "Lower Promenade, 2",
+			"description": {
+				"short": "Experience Sirio Maccioni’s world famous Le Cirque restaurant of New York City",
+				"long" : "Once per cruise, the Pinnacle Grill is transformed into the legendary Le Cirque of New York City. Ranked among the best restaurants in the world by food experts, and famous for its celebrity clientele, Le Cirque brings its French Continental Cuisine to Holland America Line."
+			},
+			"meals"      : {
+				"breakfast": null,
+				"lunch"    : null,
+				"dinner"   : {
+					"pricing": 69,
+					"menu"   : "lecirque-dinner.pdf"
+				}
+			}
+		},
+		"dinningRoom"  : {
+			"name"       : "The Dining Room",
+			"location"   : "Decks 2 &amp; 3",
+			"description": {
+				"short": "A wide variety of options for breakfast, lunch and dinner in this classic setting with ocean views",
+				"long" : "The two-tiered Dining Room with its sea views, white linens, sparkling crystal and Rosenthal china, elevates each dining occasion. Whether you choose a pre-set seating and dining time or the freedom each evening to dine \"As You Wish&copy;\"."
+			},
+			"meals"      : {
+				"breakfast": {
+					"pricing": "Complimentary"
+				},
+				"lunch"    : {
+					"pricing": "Complimentary"
+				},
+				"dinner"   : {
+					"pricing": "Complimentary"
+				}
+			}
+		}
+	}
+}
