@@ -1,3 +1,26 @@
 .resume {
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
 
+  li:last-of-type {
+    margin: 0;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  a {
+    font-size: 2rem;
+  }
+}
+
+@media @handsetQuery {
+  .resume {
+    a {
+      font-size: 6rem;
+    }
+  }
 }
