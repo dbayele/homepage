@@ -5,7 +5,7 @@
     </a>
 
     <div class="text-panel">
-        <h2>{{ projectName }}</h2>
+        <h2>{{ projectName }} <span class="subtitle"><time datetime="{{ datetime }}">{{ datetime | date : 'yyyy' }}</time></span></h2>
         <ul>
             <li title="The live version may have changed significantly since I worked on it." ng-show="liveUrl"><a class="body-link project-link" href="{{ liveUrl }}">Live Version</a></li>
             <li ng-show="localUrl"><a class="body-link project-link" href="{{ localUrl }}">Local Version</a></li>

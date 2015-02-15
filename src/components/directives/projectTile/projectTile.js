@@ -1,7 +1,7 @@
 angular.module('aaron.homepage.directives.projectTile', [
 
 ])
-.directive('projectTile', function() {
+.directive('projectTile', function($filter) {
     return {
         restrict: 'E',
         templateUrl: 'src/components/directives/projectTile/projectTile.tpl.html',
@@ -10,7 +10,8 @@ angular.module('aaron.homepage.directives.projectTile', [
             descriptionTemplate: '=',
             imageUrl: '=',
             liveUrl: '=',
-            localUrl: '='
+            localUrl: '=',
+            datetime: '='
         },
         link: function($scope, element, attrs) {
 
