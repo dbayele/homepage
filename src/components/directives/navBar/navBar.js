@@ -13,11 +13,11 @@ angular.module('aaron.homepage.directives.navBar', [
 
 
             $scope.toggleMobileMenu = function() {
-                var isMobile = element.find('ul');
-
-                console.log('isMobile = %o', isMobile);
-
                 $scope.mobileMenuOpen = !$scope.mobileMenuOpen;
+            };
+
+            $scope.hideMobileMenu = function() {
+                $scope.mobileMenuOpen = false;
             };
         }
     };
