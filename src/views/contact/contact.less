@@ -1,5 +1,15 @@
 .contact {
 
+  .contact-link {
+    font-size: 8rem;
+    color: @linkColor;
+    text-decoration: none;
+
+    &:hover {
+      color: @linkHoverColor;
+    }
+  }
+
   li {
     display: inline-block;
     margin-right: 1rem;
@@ -13,9 +23,6 @@
     text-align: center;
   }
 
-  a {
-    font-size: 8rem;
-  }
 
   p {
     text-align: center;
@@ -49,7 +56,7 @@
       display: none;
     }
 
-    a {
+    .contact-link {
       font-size: 6rem;
     }
 

@@ -3,26 +3,38 @@
 @import "animations";
 
 html {
-  color: white;
+  color: @copyTextColor;
   .bodyText();
 
   height: 100%;
 
-  background-color: #00A3EF;
+//  background-color: #00A3EF;
+//
+//  background-attachment: fixed;
 
-  background-attachment: fixed;
-
-  background-image: -ms-linear-gradient(top left, #000000 0%, #00A3EF 100%);
-  background-image: -moz-linear-gradient(top left, #000000 0%, #00A3EF 100%);
-  background-image: -o-linear-gradient(top left, #000000 0%, #00A3EF 100%);
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #000000), color-stop(1, #00A3EF));
-  background-image: -webkit-linear-gradient(top left, #000000 0%, #00A3EF 100%);
-  background-image: linear-gradient(to bottom right, #000000 0%, #00A3EF 100%);
+//  background-image: -ms-linear-gradient(top left, #000000 0%, #00A3EF 100%);
+//  background-image: -moz-linear-gradient(top left, #000000 0%, #00A3EF 100%);
+//  background-image: -o-linear-gradient(top left, #000000 0%, #00A3EF 100%);
+//  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #000000), color-stop(1, #00A3EF));
+//  background-image: -webkit-linear-gradient(top left, #000000 0%, #00A3EF 100%);
+//  background-image: linear-gradient(to bottom right, #000000 0%, #00A3EF 100%);
 }
 
 body {
-  padding-top: @navHeight;
+
   overflow-x: hidden;
+}
+
+.main-view {
+  padding-top: @navHeight;
+  padding-bottom: @navHeight;
+
+//  position:fixed;
+//  top: 0;
+//  height: 100%;
+//  width: 100%;
+//
+//  overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,27 +42,46 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-a {
-  color: @normalLinkColor;
-  text-shadow: @linkShadow;
+
+.nav-link {
+    color: @navLinkColor;
+    text-shadow: @navLinkShadow;
+    text-decoration: none;
+
+  &:hover {
+    color: @navLinkHover;
+    text-decoration: underline;
+  }
+
+  &.important-link {
+    color: @navImportantLinkColor;
+  }
+
+  &.important-link:hover {
+    color: @navLinkHover;
+  }
+}
+
+.body-link {
+  color: @linkColor;
   text-decoration: none;
+
+  &:hover {
+    color: @linkHoverColor;
+    text-decoration: underline;
+  }
+
+  &.important-link {
+    color: @navImportantLinkColor;
+  }
+
+  &.important-link:hover {
+    color: @linkHoverColor;
+  }
 }
 
-a:hover {
-  color: @linkHover;
-  text-decoration: underline;
-}
-
-a.important-link {
-  color: @importantLinkColor;
-}
-
-a.important-link:hover {
-  color: @linkHover;
-}
 
 strong {
-  color: @strongTextColor;
   font-weight: bold;
 }
 

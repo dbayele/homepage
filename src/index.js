@@ -25,7 +25,7 @@ angular.module('aaron.homepage', [
 .run(function() {
 
 })
-.controller('MainController', function($scope, $rootScope, MenuStateService) {
+.controller('MainController', function($scope, $rootScope, $window, MenuStateService) {
     console.log('Main Controller Active - Hello');
 
     $scope.currentMenuItem = null;
@@ -40,6 +40,8 @@ angular.module('aaron.homepage', [
         console.log('$scope.nextMenuItem = %o', $scope.nextMenuItem);
         console.log('$scope.currentMenuItem = %o', $scope.currentMenuItem);
         console.log('$scope.menusVisible = %o', $scope.menusVisible);
+
+        $window.scrollTo(0, 0);
 
     });
 });

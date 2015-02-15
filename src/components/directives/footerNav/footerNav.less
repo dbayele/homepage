@@ -1,25 +1,28 @@
 .footer-nav {
-  position:fixed;
-  z-index: 9;
-
-  text-align: right;
-  bottom:0;
-  background-color: @menuBackgroundColor;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-
   height: @navHeight;
-  font-size: 1.5rem;
+
+  z-index: 9;
 
   padding-right: 1rem;
   padding-top: .5rem;
   padding-left: 1rem;
 
-  h1 {
-    display: inline-block;
+  background-color: @menuBackgroundColor;
+
+  font-size: 1.5rem;
+
+  .copyright {
+    color: white;
+    font-size: .75rem;
+    padding-top: .5rem;
   }
 
-
   a {
+    display: inline-block;
+    float: right;
     text-transform: capitalize;
   }
 }
