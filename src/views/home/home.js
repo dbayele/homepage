@@ -25,6 +25,9 @@ angular.module('aaron.homepage.home', [
             },
             menusVisible: function() {
                 return false;
+            },
+            backgroundClass: function() {
+                return 'main-background';
             }
         }
     });

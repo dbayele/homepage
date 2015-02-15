@@ -31,15 +31,18 @@ angular.module('aaron.homepage', [
     $scope.currentMenuItem = null;
     $scope.nextMenuItem = null;
     $scope.menusVisible = null;
+    $scope.backgroundClass = null;
 
     $rootScope.$on( "$routeChangeSuccess", function(event, next, current) {
         $scope.nextMenuItem = next.locals.nextMenuItem;
         $scope.currentMenuItem = next.locals.currentMenuItem;
         $scope.menusVisible = next.locals.menusVisible;
+        $scope.backgroundClass = next.locals.backgroundClass;
 
         console.log('$scope.nextMenuItem = %o', $scope.nextMenuItem);
         console.log('$scope.currentMenuItem = %o', $scope.currentMenuItem);
         console.log('$scope.menusVisible = %o', $scope.menusVisible);
+        console.log('$scope.backgroundClass = %o', $scope.backgroundClass);
 
         $window.scrollTo(0, 0);
 
