@@ -31,6 +31,11 @@ angular.module('aaron.homepage.resume', [
     .run(function() {
 
     })
-    .controller('ResumeController', function($scope) {
+    .controller('ResumeController', function($scope, $window) {
         console.log('Resume Controller Active - Hello');
+
+        $scope.printPage = function() {
+            $window.print();
+        }
+
     });

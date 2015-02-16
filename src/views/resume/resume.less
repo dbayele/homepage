@@ -8,10 +8,19 @@
     margin-bottom: 2rem;
   }
 
+  .print-title {
+    font-size: 1.75rem;
+  }
+
+  .print-section {
+    display: none;
+  }
+
   .resume-link {
     font-size: 8rem;
     color: @linkColor;
     text-decoration: none;
+    cursor: pointer;
 
     &:hover {
       color: @linkHoverColor;
@@ -82,6 +91,22 @@
   .resume {
     .resume-link {
       font-size: 6rem;
+    }
+  }
+}
+
+@media @printQuery {
+  .resume {
+    .page-title {
+      display: none;
+    }
+
+    .print-section {
+      display: block;
+    }
+
+    .resume-link {
+      display: none;
     }
   }
 }
