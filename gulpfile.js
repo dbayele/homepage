@@ -30,7 +30,7 @@ gulp.task('copy assets', ['clean'], function() {
 });
 
 gulp.task('copy scripts', ['clean'], function() {
-    var stream = gulp.src('src/**/*.js')
+    var stream = gulp.src(['src/index.js', 'src/components/**/*.js', 'src/views/**/*.js'])
         .pipe(concat('app.js', {newLine: '; '}))
         .pipe(gulp.dest('build/assets'));
 

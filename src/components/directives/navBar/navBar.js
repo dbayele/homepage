@@ -1,7 +1,7 @@
 angular.module('aaron.homepage.directives.navBar', [
 
 ])
-.directive('navBar', function() {
+.directive('navBar', function($location) {
     return {
         restrict: 'E',
         templateUrl: 'src/components/directives/navBar/navBar.tpl.html',
@@ -16,8 +16,13 @@ angular.module('aaron.homepage.directives.navBar', [
                 $scope.mobileMenuOpen = !$scope.mobileMenuOpen;
             };
 
-            $scope.hideMobileMenu = function() {
+            $scope.hideMobileMenu = function(url) {
                 $scope.mobileMenuOpen = false;
+
+                if(url) {
+                    $location.url(url);
+                }
+
             };
         }
     };
