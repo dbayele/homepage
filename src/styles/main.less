@@ -22,27 +22,35 @@ html {
 
 body {
 
-
+  background-size: cover;
+  background-attachment: fixed;
   overflow-x: hidden;
 }
 
 
 .main-background {
-  background-image: url('test.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  .backgroundGradient(@color-primary-1);
+}
+
+.portfolio-background {
+  .backgroundGradient(@color-primary-1);
+}
+
+.resume-background {
+  .backgroundGradient(@color-primary-1);
+}
+
+.about-background {
+  .backgroundGradient(@color-primary-1);
+}
+
+.contact-background {
+  .backgroundGradient(@color-primary-1);
 }
 
 .main-view {
   padding-top: @navHeight;
   padding-bottom: @navHeight;
-
-//  position:fixed;
-//  top: 0;
-//  height: 100%;
-//  width: 100%;
-//
-//  overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {

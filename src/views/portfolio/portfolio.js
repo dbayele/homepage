@@ -25,6 +25,9 @@ angular.module('aaron.homepage.portfolio', [
                 },
                 menusVisible: function() {
                     return true;
+                },
+                backgroundClass: function() {
+                    return 'portfolio-background';
                 }
             }
         });

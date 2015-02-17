@@ -24,6 +24,9 @@ angular.module('aaron.homepage.resume', [
                 },
                 menusVisible: function() {
                     return true;
+                },
+                backgroundClass: function() {
+                    return 'resume-background';
                 }
             }
         });

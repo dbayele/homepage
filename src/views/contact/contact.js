@@ -24,6 +24,9 @@ angular.module('aaron.homepage.contact', [
                 },
                 menusVisible: function() {
                     return true;
+                },
+                backgroundClass: function() {
+                    return 'contact-background';
                 }
             }
         });

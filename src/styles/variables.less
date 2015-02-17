@@ -13,6 +13,18 @@
   font-family: 'Roboto Slab', serif;
 }
 
+.backgroundGradient(@color) {
+  @color-full: rgba(red(@color), green(@color), blue(@color), 1);
+  @color-transparent: rgba(red(@color), green(@color), blue(@color), 0);
+
+  background: -moz-linear-gradient(45deg, @color-full 0%, @color-transparent 52%, @color-full 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,@color-full), color-stop(52%,@color-transparent), color-stop(100%,@color-full));
+  background: -webkit-linear-gradient(45deg, @color-full 0%, @color-transparent 52%, @color-full 100%);
+  background: -o-linear-gradient(45deg, @color-full 0%, @color-transparent 52%, @color-full 100%);
+  background: -ms-linear-gradient(45deg, @color-full 0%, @color-transparent 52%, @color-full 100%);
+  background: linear-gradient(45deg, @color-full 0%, @color-transparent 52%, @color-full 100%);
+}
+
 
 /* LESS - http://lesscss.org style sheet */
 /* Palette color codes */
