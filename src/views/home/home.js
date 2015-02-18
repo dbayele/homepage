@@ -28,6 +28,9 @@ angular.module('aaron.homepage.home', [
             },
             backgroundClass: function() {
                 return 'main-background';
+            },
+            pageTitle: function() {
+                return "Aaron's Homepage";
             }
         }
     });
@@ -36,9 +39,6 @@ angular.module('aaron.homepage.home', [
 
 })
 .controller('HomeController', function($scope, MenuStateService) {
-
-
     MenuStateService.setCurrentMenuItem('home', '#/home');
     MenuStateService.setNextMenuItem('portfolio', '#/portfolio');
-    console.log('Home Controller Active - Hello');
 });

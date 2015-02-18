@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 var gulpconfig = require('./gulpconfig');
-var glob = require("glob");
+var fs = require('fs');
 
 var print = require('gulp-print');
 var del = require('del');
@@ -13,11 +13,13 @@ var less = require('gulp-less');
 var htmlreplace = require('gulp-html-replace');
 var html2js = require('gulp-html2js');
 var connect = require('gulp-connect');
+var bump = require('gulp-bump');
 
 
 gulp.task('clean', function(cb) {
     del([
-        'build'
+        'build',
+        'deploy'
     ], cb);
 });
 
@@ -41,7 +43,6 @@ gulp.task('compile libraries', ['clean'], function() {
     var stream = gulp.src(gulpconfig.vendorScripts)
         .pipe(ngAnnotate())
         .pipe(concat('libraries.js', {newLine: '; '}))
-        .pipe(uglify())
         .pipe(gulp.dest('build/assets'));
 
     return stream;
@@ -61,7 +62,6 @@ gulp.task('compile templates', ['clean'], function() {
             outputModuleName: 'templates'
         }))
         .pipe(concat('templates.js'))
-        .pipe(uglify())
         .pipe(gulp.dest('build/assets'))
 });
 
@@ -79,6 +79,74 @@ gulp.task('compile index', ['clean', 'copy assets', 'compile libraries', 'compil
 });
 
 gulp.task('compile', ['clean', 'copy assets', 'compile libraries', 'compile less', 'compile index', 'compile templates', 'copy scripts'], function() {
+
+});
+
+
+gulp.task('deploy index', ['compile'], function(cb) {
+    var stream = gulp.src('src/index.html')
+        .pipe(htmlreplace({
+            'css': 'assets/main.css',
+            'js': 'assets/index.js'
+        }))
+        .pipe(gulp.dest('deploy'), cb);
+
+    return stream;
+});
+
+gulp.task('deploy assets', ['compile'], function() {
+    var stream = gulp.src(['src/assets/**'])
+        .pipe(gulp.dest('deploy/assets'));
+
+    return stream;
+});
+
+gulp.task('deploy css', ['compile'], function() {
+    var stream = gulp.src(['build/assets/*.css'])
+        .pipe(gulp.dest('deploy/assets'));
+
+    return stream;
+});
+
+gulp.task('deploy scripts', ['compile'], function() {
+    var stream = gulp.src(['build/assets/libraries.js', 'build/assets/app.js', 'build/assets/templates.js'])
+        .pipe(concat('index.js', {newLine: '; '}))
+        .pipe(ngAnnotate())
+        .pipe(uglify())
+        .pipe(gulp.dest('deploy/assets'));
+
+    return stream;
+});
+
+gulp.task('deploy bump', ['compile'], function(){
+    var stream = gulp.src('./*.json')
+        .pipe(bump({type:'minor'}))
+        .pipe(gulp.dest('./'));
+
+
+    return stream;
+});
+
+
+gulp.task('deploy', ['deploy scripts', 'deploy assets', 'deploy index', 'deploy css', 'deploy bump'], function() {
+
+
+});
+
+
+
+gulp.task('release', ['deploy'], function() {
+
+
+    var nodePackage = require('./package.json');
+
+    var versionObject = {
+        name: nodePackage.name,
+        version: nodePackage.version
+    };
+    console.log('hello');
+
+    fs.writeFileSync('deploy/version.json', JSON.stringify(versionObject, null, '\t'));
 
 });
 

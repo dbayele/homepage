@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html ng-app="aaron.homepage">
+<html ng-app="aaron.homepage" ng-controller="MainController">
 <head>
-    <title>Aaron's Homepage</title>
+    <title ng-bind="pageTitle">Aaron's Homepage</title>
+
+    <meta name="description" content="Portfolio and contact information for Aaron Willows, a web developer in the Seattle area.">
+    <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -10,7 +13,7 @@
     <!-- build:css -->
     <!-- endbuild -->
 </head>
-<body ng-controller="MainController" ng-class="backgroundClass">
+<body ng-class="backgroundClass">
     <nav-bar ng-show="menusVisible" current-item="currentMenuItem"></nav-bar>
 
 

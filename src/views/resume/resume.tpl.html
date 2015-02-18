@@ -7,11 +7,11 @@
         <li><a title="print resume" class="resume-link" ng-click="printPage()"><i class="fa fa-print"></i></a></li>
     </ul>
 
-    <section class="print-section">
-        <h1 class="print-title">Aaron Willows</h1>
-        <p>aaronchristopherw@gmail.com</p>
-        <p>http://aaronwillows.com</p>
-        <p>https://github.com/s33r</p>
+    <section class="print-section" itemscope itemtype="http://data-vocabulary.org/Person">
+        <h1 class="print-title" itemprop="name">Aaron Willows</h1>
+        <p><a itemprop="email" href="mailto:aaronchristopherw@gmail.com">aaronchristopherw@gmail.com</a></p>
+        <p><a itemprop="url" href="http://aaronwillows.com">http://aaronwillows.com</a></p>
+        <p><a itemprop="url" href="https://github.com/s33r">https://github.com/s33r</a></p>
     </section>
 
     <section>
@@ -53,45 +53,51 @@
 
     <section>
         <h2>Experience</h2>
-        <h3>Holland America Line
-            <span class="subtitle"><time datetime="2014-09-01">September 2014</time> - <time datetime="2015-02-26">February 2015</time></span>
-            <span class="subtitle">Front End / UX Developer</span>
-        </h3>
 
-        <ul class="experience-list">
-            <li>Developed responsive, single page web applications using AngularJS, HTML5, JavaScript and CSS3.</li>
-            <li>Practiced test driven development using Karma & Jasmine to improve code quality.</li>
-            <li>Implemented UI / UX designs for mobile and desktop focused applications.</li>
-            <li>Provide technical expertise related to JavaScript and front end application architecture.</li>
-            <li>Front end developer for Holland America’s new guest facing mobile web application.</li>
-        </ul>
+        <section itemscope itemtype="http://data-vocabulary.org/Organization">
+            <h3><span itemprop="name">Holland America Line</span>
+                <span class="subtitle"><time datetime="2014-09-01">September 2014</time> - <time datetime="2015-02-26">February 2015</time></span>
+                <span class="subtitle">Front End / UX Developer</span>
+            </h3>
 
-        <h3>Holland America Line
-            <span class="subtitle"><time datetime="2012-08-28">August 2012</time> - <time datetime="2014-09-01">September 2014</time></span>
-            <span class="subtitle">Web Applications Support Developer</span>
-        </h3>
+            <ul class="experience-list">
+                <li>Developed responsive, single page web applications using AngularJS, HTML5, JavaScript and CSS3.</li>
+                <li>Practiced test driven development using Karma & Jasmine to improve code quality.</li>
+                <li>Implemented UI / UX designs for mobile and desktop focused applications.</li>
+                <li>Provide technical expertise related to JavaScript and front end application architecture.</li>
+                <li>Front end developer for Holland America’s new guest facing mobile web application.</li>
+            </ul>
+        </section>
 
-        <ul class="experience-list">
-            <li>Developed client side MVC applications using JavaScript, HTML5 and CSS3.</li>
-            <li>Advocated to make AngularJS the standard front end framework for Holland America’s front end projects.</li>
-            <li>Designed the front end AngularJS architecture, based on ngBoilerplate, now in use by several teams. This architecture uses: Grunt, Bower, Karma, Jasmine, Bootstrap, AngularJS and a variety of other libraries.</li>
-            <li>Developed a Yeoman generator for creating new applications using this architecture.</li>
-            <li>Designed and implemented the front end portion of the new AngularJS Holland America and Seabourn homepages.</li>
-            <li>Used AngularJS to develop an internal crew facing application.</li>
-            <li>Supported legacy Java web applications that were built around struts2, spring and hibernate.</li>
-        </ul>
+        <section itemscope itemtype="http://data-vocabulary.org/Organization">
+            <h3><span itemprop="name">Holland America Line</span>
+                <span class="subtitle"><time datetime="2012-08-28">August 2012</time> - <time datetime="2014-09-01">September 2014</time></span>
+                <span class="subtitle">Web Applications Support Developer</span>
+            </h3>
 
+            <ul class="experience-list">
+                <li>Developed client side MVC applications using JavaScript, HTML5 and CSS3.</li>
+                <li>Advocated to make AngularJS the standard front end framework for Holland America’s front end projects.</li>
+                <li>Designed the front end AngularJS architecture, based on ngBoilerplate, now in use by several teams. This architecture uses: Grunt, Bower, Karma, Jasmine, Bootstrap, AngularJS and a variety of other libraries.</li>
+                <li>Developed a Yeoman generator for creating new applications using this architecture.</li>
+                <li>Designed and implemented the front end portion of the new AngularJS Holland America and Seabourn homepages.</li>
+                <li>Used AngularJS to develop an internal crew facing application.</li>
+                <li>Supported legacy Java web applications that were built around struts2, spring and hibernate.</li>
+            </ul>
+        </section>
 
-        <h3>Schweitzer Engineering Laboratories
-            <span class="subtitle"><time datetime="2012-01-28">January 2012</time> - <time datetime="2014-08-27">August 2012</time></span>
-            <span class="subtitle">Test Operator</span>
-        </h3>
+        <section itemscope itemtype="http://data-vocabulary.org/Organization">
+            <h3><span itemprop="name">Schweitzer Engineering Laboratories</span>
+                <span class="subtitle"><time datetime="2012-01-28">January 2012</time> - <time datetime="2014-08-27">August 2012</time></span>
+                <span class="subtitle">Test Operator</span>
+            </h3>
 
-        <ul class="experience-list">
-            <li>Operate automated test fixtures to functionally and environmentally test power protection and SCADA devices</li>
-            <li>Preform first line troubleshooting to recognize product defects.</li>
-            <li>Track WIP units and ensure that high priority units were tested first.</li>
-        </ul>
+            <ul class="experience-list">
+                <li>Operate automated test fixtures to functionally and environmentally test power protection and SCADA devices</li>
+                <li>Preform first line troubleshooting to recognize product defects.</li>
+                <li>Track WIP units and ensure that high priority units were tested first.</li>
+            </ul>
+        </section>
     </section>
 
     <section>

@@ -27,6 +27,9 @@ angular.module('aaron.homepage.contact', [
                 },
                 backgroundClass: function() {
                     return 'contact-background';
+                },
+                pageTitle: function() {
+                    return 'Contact me';
                 }
             }
         });
@@ -35,5 +38,5 @@ angular.module('aaron.homepage.contact', [
 
     })
     .controller('ContactController', function($scope) {
-        console.log('Contact Controller Active - Hello');
+
     });

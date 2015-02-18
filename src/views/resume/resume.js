@@ -27,6 +27,9 @@ angular.module('aaron.homepage.resume', [
                 },
                 backgroundClass: function() {
                     return 'resume-background';
+                },
+                pageTitle: function() {
+                    return 'My Resume';
                 }
             }
         });
@@ -35,10 +38,7 @@ angular.module('aaron.homepage.resume', [
 
     })
     .controller('ResumeController', function($scope, $window) {
-        console.log('Resume Controller Active - Hello');
-
         $scope.printPage = function() {
             $window.print();
-        }
-
+        };
     });

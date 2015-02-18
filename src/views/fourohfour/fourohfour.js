@@ -24,7 +24,14 @@ angular.module('aaron.homepage.fourohfour', [
             },
             menusVisible: function() {
                 return false;
+            },
+            backgroundClass: function() {
+                return 'about-background';
+            },
+            pageTitle: function() {
+                return '404';
             }
+
         }
     });
 })
@@ -32,5 +39,5 @@ angular.module('aaron.homepage.fourohfour', [
 
 })
 .controller('FourohfourController', function($scope) {
-    console.log('Fourohfou Controller Active - Hello');
+
 });

@@ -39,36 +39,29 @@ angular.module('aaron.homepage.directives.navBar', [
                     }
                 }
 
-                console.log('hideMenu = %o', hideMenu);
                 if(hideMenu && $scope.mobileMenuOpen) {
 
                     $scope.hideMobileMenu();
                 }
             };
 
-
             $document.bind('click', function() {
-                console.log('$document click');
                 $scope.$apply(function() { hideOnOutsideClick(event); });
             });
 
             $document.bind('touchstart', function() {
-                console.log('$document touch');
                 $scope.$apply(function() { hideOnOutsideClick(event); });
             });
 
             $document.bind('touchmove', function() {
-                console.log('$document touchmove');
                 $scope.$apply(function() { hideOnOutsideClick(event); });
             });
 
             $document.bind('pointerdown', function() {
-                console.log('$document pointerdown');
                 $scope.$apply(function() { hideOnOutsideClick(event); });
             });
 
             $document.bind('pointermove', function() {
-                console.log('$document pointermove');
                 $scope.$apply(function() { hideOnOutsideClick(event); });
             });
 

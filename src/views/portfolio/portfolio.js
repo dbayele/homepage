@@ -28,6 +28,9 @@ angular.module('aaron.homepage.portfolio', [
                 },
                 backgroundClass: function() {
                     return 'portfolio-background';
+                },
+                pageTitle: function() {
+                    return "My Portfolio";
                 }
             }
         });
@@ -36,5 +39,5 @@ angular.module('aaron.homepage.portfolio', [
 
     })
     .controller('PortfolioController', function($scope) {
-        console.log('Portfolio Controller Active - Hello');
+
     });

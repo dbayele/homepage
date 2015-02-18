@@ -27,6 +27,9 @@ angular.module('aaron.homepage.about', [
                 },
                 backgroundClass: function() {
                     return 'about-background';
+                },
+                pageTitle: function() {
+                    return 'About Me';
                 }
             }
         });
@@ -35,5 +38,5 @@ angular.module('aaron.homepage.about', [
 
     })
     .controller('AboutController', function($scope) {
-        console.log('About Controller Active - Hello');
+
     });

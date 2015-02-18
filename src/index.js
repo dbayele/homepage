@@ -6,7 +6,6 @@ angular.module('aaron.homepage', [
     'ngRoute',
     'ngTouch',
     'ngAnimate',
-    'aaron.homepage.services.MenuStateService',
     'aaron.homepage.directives.navBar',
     'aaron.homepage.directives.footerNav',
     'aaron.homepage.home',
@@ -25,26 +24,20 @@ angular.module('aaron.homepage', [
 .run(function() {
 
 })
-.controller('MainController', function($scope, $rootScope, $window, MenuStateService) {
-    console.log('Main Controller Active - Hello');
-
+.controller('MainController', function($scope, $rootScope, $window) {
     $scope.currentMenuItem = null;
     $scope.nextMenuItem = null;
     $scope.menusVisible = null;
     $scope.backgroundClass = null;
+    $scope.pageTitle = "Aaron's Homepage";
 
     $rootScope.$on( "$routeChangeSuccess", function(event, next, current) {
         $scope.nextMenuItem = next.locals.nextMenuItem;
         $scope.currentMenuItem = next.locals.currentMenuItem;
         $scope.menusVisible = next.locals.menusVisible;
         $scope.backgroundClass = next.locals.backgroundClass;
-
-        console.log('$scope.nextMenuItem = %o', $scope.nextMenuItem);
-        console.log('$scope.currentMenuItem = %o', $scope.currentMenuItem);
-        console.log('$scope.menusVisible = %o', $scope.menusVisible);
-        console.log('$scope.backgroundClass = %o', $scope.backgroundClass);
+        $scope.pageTitle = next.locals.pageTitle;
 
         $window.scrollTo(0, 0);
-
     });
 });
