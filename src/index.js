@@ -19,7 +19,7 @@ angular.module('aaron.homepage', [
 .config(function($routeProvider, $locationProvider) {
     $routeProvider.otherwise({redirectTo:'/fourohfour'});
 
-    //$locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
 })
 .run(function() {
 

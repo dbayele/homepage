@@ -14,13 +14,13 @@ angular.module('aaron.homepage.home', [
             nextMenuItem: function() {
                 return {
                     name: 'portfolio',
-                    url: '#/portfolio'
+                    url: '/portfolio'
                 }
             },
             currentMenuItem: function() {
                 return {
                     name: 'home',
-                    url: '#/home'
+                    url: '/home'
                 }
             },
             menusVisible: function() {
@@ -39,6 +39,6 @@ angular.module('aaron.homepage.home', [
 
 })
 .controller('HomeController', function($scope, MenuStateService) {
-    MenuStateService.setCurrentMenuItem('home', '#/home');
-    MenuStateService.setNextMenuItem('portfolio', '#/portfolio');
+    MenuStateService.setCurrentMenuItem('home', '/home');
+    MenuStateService.setNextMenuItem('portfolio', '/portfolio');
 });

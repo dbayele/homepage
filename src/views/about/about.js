@@ -13,13 +13,13 @@ angular.module('aaron.homepage.about', [
                 nextMenuItem: function() {
                     return {
                         name: 'contact',
-                        url: '#/contact'
+                        url: '/contact'
                     }
                 },
                 currentMenuItem: function() {
                     return {
                         name: 'about',
-                        url: '#/about'
+                        url: '/about'
                     }
                 },
                 menusVisible: function() {

@@ -14,13 +14,13 @@ angular.module('aaron.homepage.portfolio', [
                 nextMenuItem: function() {
                     return {
                         name: 'resume',
-                        url: '#/resume'
+                        url: '/resume'
                     }
                 },
                 currentMenuItem: function() {
                     return {
                         name: 'portfolio',
-                        url: '#/portfolio'
+                        url: '/portfolio'
                     }
                 },
                 menusVisible: function() {
